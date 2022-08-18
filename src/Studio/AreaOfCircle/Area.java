@@ -15,8 +15,8 @@ public class Area {
 
             if (radius <= 0 ){
                 System.out.println("Error: Enter a positive number");
-
             } else {
+
                 System.out.println("The area of a circle of radius " + radius + " is: " + area);
 
             }
