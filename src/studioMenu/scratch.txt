@@ -1,0 +1,33 @@
+Based on these details, you need to include some instance methods:
+
+-List the method names, access levels, input, return parameter
+
+*A way to add and remove menu items from the menu.
+    Menu class methods
+    removeMenuItem:
+    public
+    input: MenuItem item
+    return void
+
+
+*A way to tell if a menu item is new.
+    MenuItem Class Methods
+    isItemNew:
+    public
+    input: isNew
+    conditional:
+        if new
+             return "new item"
+
+* A way to tell when the menu was last updated.
+(done)
+
+*A way to print out both a single menu item as well as the entire menu.
+     Menu class:
+        take in one item;
+        use getName, getDescription, etc
+        printing name of item, description, price, category, isNew
+
+then in restaurant method and do print
+
+*A way to determine whether or not two menu items are equal.

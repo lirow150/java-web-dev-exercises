@@ -1,0 +1,9 @@
+Menu
+ArrayList<MenuItem> menuItems
+LocalDate lastUpdated
+
+Menu Item
+double price
+String description
+String category
+boolean isNew
